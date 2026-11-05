@@ -1,4 +1,4 @@
-StunSlam - Fabric 1.21.11 (client-side), with Mod Menu + Cloth Config settings screen
+StunSlam v1.1.0 - Fabric 1.21.11 (client-side), with Mod Menu + Cloth Config settings screen
 
 BUILD
 1. Install JDK 21.
@@ -17,3 +17,9 @@ NOTES
 - If the fabric-loom version in build.gradle doesn't resolve, use the one from the Fabric template generator.
 - If a Yarn method name fails to compile, check IDE autocomplete; names can shift between builds.
 - Use only on servers you own/administer for anti-cheat testing.
+
+USAGE (v1.1.0)
+- Hotbar must contain an axe and a mace.
+- Default: right-click while a player is in reach (crosshair target, or nearest within the view-angle limit) runs axe hit -> swap -> mace hit.
+- Trigger / target mode / fall + cooldown requirements are in the Mod Menu settings.
+- Delete config/stunslam.json after updating from v1.0.0 to pick up the new defaults.
